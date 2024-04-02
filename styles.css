@@ -1,0 +1,96 @@
+html{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(33, 11, 61);
+}
+.title{
+display: flex;
+justify-content: center;
+font-size: 200%;
+color: rgb(211, 182, 16);
+
+}
+.infoContainer{
+    display: flex;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+#grid {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    border-bottom: none;
+}
+
+.infoMessageLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 373px;
+    height: 50px;
+    border: 5px solid black;
+    border-right: none;
+    background-color: rgb(48, 6, 87);
+    color: rgb(211, 182, 16);
+    font-size: 120%;
+    font-weight: 500;
+    font-style: bold;
+}
+.infoMessageWinLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 373px;
+    height: 50px;
+    border: 5px solid black;
+    border-right: none;
+    background-color: rgb(179, 101, 252);
+    color: rgb(80, 68, 1);
+    font-size: 120%;
+    font-weight: 500;
+    font-style: bold;
+}
+.infoMessageRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 50px;
+    border: 5px solid black;
+    background-color: rgb(48, 6, 87);
+    color: rgb(211, 182, 16);
+    font-size: 120%;
+    font-weight: 500;
+    font-style: bold;
+}
+.infoMessageWinRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 50px;
+    border: 5px solid black;
+    background-color: rgb(179, 101, 252);
+    color: rgb(80, 68, 1);
+    font-size: 120%;
+    font-weight: 500;
+    font-style: bold;
+}
+
+.restartButton{
+    background-color: rgb(48, 6, 87);
+    color: rgb(211, 182, 16);
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}
+.restartButtonWin{
+    background-color: rgb(179, 101, 252);
+    color: rgb(80, 68, 1);
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}
