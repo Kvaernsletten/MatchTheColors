@@ -46,7 +46,7 @@ function updateView() {
     <div class="${youWin ? 'infoMessageWinRight' : 'infoMessageRight'}">Attempts: ${attempts}</div>
     </div>
     <div class="button">
-    <button class="${youWin ? 'restartButtonWin' : 'restartButton'}" onclick="location.reload()">Restart</button>
+    <button class="${youWin ? 'restartButtonWin' : 'restartButton'}" onmousedown="location.reload()">Restart</button>
     </div>
     `;
 }
@@ -81,6 +81,7 @@ function revealPicture(index) {
             firstClick = false;
             secondClick = false;
             matchedColorPairs++;
+            attempts++;
             if(matchedColorPairs == randomizedColorsList.length / 2){
                 infoMessage = "You win!"
                 console.log("Congrats!")
@@ -92,13 +93,13 @@ function revealPicture(index) {
             }
         } else {
             infoMessage = "Try again!"
-            attempts++;
             setTimeout(() => {
                 randomizedColorsList[firstClickIndex].isRevealed = false;
                 randomizedColorsList[index].isRevealed = false;
                 firstClick = false;
                 secondClick = false;
                 updateView();
+                attempts++;
             }, 500);
         }
     }
