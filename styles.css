@@ -1,7 +1,13 @@
+_{
+    background-color: rgb(29, 21, 32); /* MAIN BGC */
+    background-color: rgba(106, 81, 117, 0.719); 
+    border: 5px solid rgb(211, 134, 45);
+    background-color: rgb(43, 29, 48);      /* elements BGC */
+}
 html{
     display: flex;
     justify-content: center;
-    background-color: rgb(33, 11, 61);
+    background-color: rgb(29, 21, 32);
 }
 .title{
 display: flex;
@@ -22,7 +28,7 @@ color: rgb(211, 182, 16);
 #grid {
     width: 500px;
     height: 500px;
-    border: 5px solid black;
+    border: 5px solid rgb(211, 134, 45);
     border-bottom: none;
 }
 
@@ -32,9 +38,9 @@ color: rgb(211, 182, 16);
     align-items: center;
     width: 373px;
     height: 50px;
-    border: 5px solid black;
+    border: 5px solid rgb(211, 134, 45);
     border-right: none;
-    background-color: rgb(48, 6, 87);
+    background-color: rgb(43, 29, 48);
     color: rgb(211, 182, 16);
     font-size: 120%;
     font-weight: 500;
@@ -46,7 +52,7 @@ color: rgb(211, 182, 16);
     align-items: center;
     width: 373px;
     height: 50px;
-    border: 5px solid black;
+    border: 5px solid rgb(211, 134, 45);
     border-right: none;
     background-color: rgb(179, 101, 252);
     color: rgb(80, 68, 1);
@@ -60,8 +66,8 @@ color: rgb(211, 182, 16);
     align-items: center;
     width: 122px;
     height: 50px;
-    border: 5px solid black;
-    background-color: rgb(48, 6, 87);
+    border: 5px solid rgb(211, 134, 45);
+    background-color: rgb(43, 29, 48);
     color: rgb(211, 182, 16);
     font-size: 120%;
     font-weight: 500;
@@ -73,7 +79,7 @@ color: rgb(211, 182, 16);
     align-items: center;
     width: 122px;
     height: 50px;
-    border: 5px solid black;
+    border: 5px solid rgb(211, 134, 45);
     background-color: rgb(179, 101, 252);
     color: rgb(80, 68, 1);
     font-size: 120%;
@@ -82,7 +88,7 @@ color: rgb(211, 182, 16);
 }
 
 .restartButton{
-    background-color: rgb(48, 6, 87);
+    background-color: rgb(43, 29, 48);
     color: rgb(211, 182, 16);
     cursor: pointer;
     width: 100px;

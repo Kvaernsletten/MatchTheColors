@@ -98,8 +98,8 @@ function revealPicture(index) {
                 randomizedColorsList[index].isRevealed = false;
                 firstClick = false;
                 secondClick = false;
-                updateView();
                 attempts++;
+                updateView();
             }, 500);
         }
     }
